@@ -1,9 +1,8 @@
-from telegram import Update
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, CallbackContext, CallbackQueryHandler, MessageHandler, Filters
-import requests
 import os
 
-# Replace with your Telegram Bot API token
+# Fetch Telegram Bot API Token from environment variable
 TOKEN = os.getenv('TELEGRAM_BOT_API_TOKEN')
 
 def start(update: Update, context: CallbackContext) -> None:
