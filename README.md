@@ -1,26 +1,25 @@
-# Advanced Telegram Bot with Docker and PythonAnywhere Deployment
+# 🚀 Advanced Telegram Bot with PythonAnywhere Deployment 🌐
 
-This repository contains a Telegram bot script that can be deployed on PythonAnywhere, with optional Docker support. The bot can manage GitHub repository links, set environment variables, and deploy other bots.
+![GitHub stars](https://img.shields.io/github/stars/yourusername/your-repo?color=brightgreen&style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/yourusername/your-repo?color=orange&style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/yourusername/your-repo?color=red&style=for-the-badge)
+![GitHub license](https://img.shields.io/github/license/yourusername/your-repo?style=for-the-badge)
 
-## Features
+<p align="center">
+  <img src="https://media.giphy.com/media/3oKIPwoeGErMmaI43S/giphy.gif" width="400" />
+</p>
 
-- **GitHub Integration:** Accepts GitHub repository links and processes them.
-- **Environment Variable Management:** Allows users to set environment variables dynamically.
-- **Bot Deployment:** Provides options for deploying other bots using the provided Dockerfile or other deployment instructions.
+---
 
-## Prerequisites
+## 🎨 Features
 
-- Python 3.9 or later
-- A [Telegram bot API token](https://core.telegram.org/bots#creating-a-new-bot)
-- A [Telegram API ID and API Hash](https://my.telegram.org/auth) (if needed)
-- Git installed on your system
-- (Optional) Docker installed if you plan to use Docker for deployment
+- 🎉 **GitHub Integration:** Easily manage and deploy bots from GitHub repositories.
+- 🔐 **Environment Variable Management:** Securely set and manage environment variables.
+- ⚙️ **Deployment Options:** Deploy your bot with Docker or directly on PythonAnywhere.
 
-## Installation
+## 🛠️ Installation
 
 ### 1. Clone the Repository
-
-Clone this repository to your local machine or directly on your server (e.g., PythonAnywhere).
 
 ```bash
 git clone https://github.com/yourusername/your-repo.git
